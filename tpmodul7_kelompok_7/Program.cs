@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        //DataMahasiswa103022300106 mhs = new DataMahasiswa103022300106();
-        //mhs.ReadJSON();
+        DataMahasiswa103022330152 mhs = new DataMahasiswa103022330152();
+        mhs.ReadJSON();
 
-        KuliahMahasiswa103022300106 kuliah = new KuliahMahasiswa103022300106();
+        KuliahMahasiswa103022330152 kuliah = new KuliahMahasiswa103022330152();
         kuliah.ReadJSON();
     }
 }
