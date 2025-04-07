@@ -1,4 +1,4 @@
-﻿using tpmodul7_kelompok_7;
+using tpmodul7_kelompok_7;
 
 class Program
 {
