@@ -20,7 +20,7 @@ namespace tpmodul7_kelompok_7
 
         public void ReadJSON()
         {
-            string jsonString = File.ReadAllText("tp7_1_103022330152.json");
+            string jsonString = File.ReadAllText("tp7_1_103022300085.json");
             DataMahasiswa103022330152 data = JsonSerializer.Deserialize<DataMahasiswa103022330152>(jsonString);
 
             Console.WriteLine($"Nama {data.nama.depan} {data.nama.belakang} dengan nim {data.nim} dari fakultas {data.fakultas}");
